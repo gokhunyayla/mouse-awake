@@ -26,15 +26,3 @@ Proje çalıştırıldığında saat alanının yanına bir mouse ikonu koyar. B
 Start'a tıkladığınızda mouse'unun öne sağa, sonra aşağıya sonra sola sonra da yukarıya 100'er pixel kadar hareket eder ve bunu her 15s'de bir tekrarlar. Bu sayede sanki siz mouse'u hareket ettiriyormuşsunuz gibi algılanır ve çalışan diğer uygulamalarınızın bilgisayarın başında olduğunuzu sanmasını sağlar. Bu sayede bilgisayarın başında gereksiz durrmak zorunda kalmazsınız. 
 
 Bilgisayar başına geldiğinizde yine saat alanındaki mouse ikonuna tıklayarak Stop veya Quit diyerek uygulamanın çalışmasını durdurup, işinize kaldığınız yerden devam edebilirsiniz.
-
-
-How to Setup?
-First you need to have pyinstaller installed on your terminal. If not you can follow below command;
-
-pip3 install pyinstaller  
-
-Then just use the command below:
-
-pyinstaller --onefile setup.py
-
-You can then copy/move the executable file inside the dist folder created after the last command to the /Applications folder.
