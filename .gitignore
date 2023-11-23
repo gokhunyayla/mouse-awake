@@ -1,0 +1,27 @@
+# Byte-Compiled / Optimized Files
+__pycache__/
+*.py[cod]
+
+# Package Directories
+.Python
+build/
+dist/
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+env/
+venv/
+ENV/
+
+# Operating System Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Folders
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
